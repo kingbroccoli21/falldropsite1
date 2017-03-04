@@ -1,0 +1,29 @@
+ul.nav {	
+	list-style-type: none;
+	margin:0%;
+	padding:0%;
+	overflow: hidden;
+	background-color: black;
+
+
+}
+ul.nav li{
+	margin-left:500px;
+	margin-right:auto;
+}
+
+ul.nav li a{
+	display:inline-block;
+	float: left;
+	color:white;
+	text-align:center;
+	-webkit-transition: all 500ms ease;
+-moz-transition: all 500ms ease;
+-ms-transition: all 500ms ease;
+-o-transition: all 500ms ease;
+transition: all 500ms ease;
+}
+ul.nav li a:hover{
+	color:grey;
+	text-shadow: 1px 1px white;
+}

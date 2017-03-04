@@ -1,0 +1,12 @@
+p {
+color: white;
+}
+
+#div1{
+}
+	.col{
+		background-color:grey;
+		float:left;
+		width: 31%;
+		margin: 1%;
+}

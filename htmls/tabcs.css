@@ -1,0 +1,27 @@
+div.mytable {
+    display: table;
+    width: 80%;
+	margin:5px;
+	padding:20px;
+	float:left;
+	
+	}
+
+div.mytable > div {
+    display: table-row;
+    width: 15px;
+	background-color:pink;
+	margin:5px;
+	padding:20px;
+	
+	-webkit-box-shadow: 0 8px 6px -6px grey;
+    	-moz-box-shadow: 0 8px 6px -6px grey;
+    	box-shadow: 0 8px 6px -6px grey;
+}
+div.mytable > div > div {
+    display: table-cell;
+    width: 20%;
+    padding:1em;
+	margin:5px;
+	
+	}
